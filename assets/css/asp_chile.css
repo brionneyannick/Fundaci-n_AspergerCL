@@ -1,0 +1,74 @@
+.navbgcolor{
+  background-color: rgb(68, 193, 42);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  padding: 0 10%;
+}
+
+.btncolor{
+  background-color: rgb(0, 147, 41);
+  color: black;
+  margin: 0.2%;
+}
+
+
+.btncolor:hover{
+  background-color: rgba(80, 235, 34, 1);
+  color: black;
+}
+
+.conborde{
+  background-color: rgb(226, 238, 190);
+  border-color: white;
+  border-style: solid;
+  padding: 3%;
+}
+
+.row{
+  margin:0;
+}
+
+#tit_ppal{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  width: 100%;
+  text-align: center;
+}
+
+.footercolor{
+  background-color: rgb(68, 193, 42);
+  padding: 2%;
+}
+
+.imgthumb {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+.espacio{
+  width: 80%;
+  float:left;
+}
+
+.banner{
+  border-style:solid;
+  border-color: green;
+  border-radius: 20px;
+  border-width: 0.5em;
+  margin: 0.5%;
+  background-color: rgb(0, 147, 41);
+}
+
+.banner:hover{
+  box-shadow: 5px 5px 10px;
+  background-color: rgba(80, 235, 34, 1);
+}
+
+@media (max-width: 680px) {
+  #tit_ppal{
+    font-size: 2em;
+  }
+}
